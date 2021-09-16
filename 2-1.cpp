@@ -6,16 +6,16 @@ using namespace std;
 int main(){
 	int n, i, j, m;
 	setlocale(LC_ALL, "Russian");
-	cout<<"Ââåäèòå ðàçìåðíîñòü: ";
+	cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€Ð½Ð¾ÑÑ‚ÑŒ: ";
 	cin>>n;
 	int t[n][n];
 	vector<int>vec(n);
 	vector<int>res(n);
-	cout<<"Ââåäèòå âåêòîð: ";
+	cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²ÐµÐºÑ‚Ð¾Ñ€: ";
 	for(i=0;i<n;i++){
 		cin>>vec[i];
 	}
-	cout<<"Ââåäèòå òåíçîð: ";
+	cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚ÐµÐ½Ð·Ð¾Ñ€: ";
 	for(i=0;i<n;i++){
 		for(j=0;j<n;j++){
 			cin>>t[i][j];
