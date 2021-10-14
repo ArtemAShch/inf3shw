@@ -42,12 +42,12 @@ Fraction::Fraction(int top_v, int bot_v)
     return;
 }*/
 
-double Fraction::getValue(){
+/*double Fraction::getValue(){
     double a = top;
     double b = bot;
     double c = a/b;
     return c;
-}
+}*/
 
 void Fraction::setTop(int tmp) {
     int c = Nok(tmp, bot);
@@ -189,11 +189,11 @@ Fraction Fraction::operator/(const int a) {
 }
 
 bool Fraction::operator<(const Fraction& b){
-    if(top<b.getTop()&&bot>=b.getBot()||top<=b.getTop()&&bot>b.getBot()) return 1;
+    if(top/bot<b.getValue()) return 1;
     else return 0;
 }
 
 bool Fraction::operator>(const Fraction& b){
-    if(top>b.getTop()&&bot<=b.getBot()||top>=b.getTop()&&bot<b.getBot()) return 1;
+    if(top/bot>b.getValue()) return 1;
     else return 0;
 }

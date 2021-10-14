@@ -23,7 +23,7 @@ public:
 
     int getTop() const { return top; }
     int getBot() const { return bot; }
-    double getValue();
+    double getValue() const{ return top/bot;}
 
     void setTop(int tmp);
     void setBot(int tmp);
