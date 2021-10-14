@@ -188,3 +188,12 @@ Fraction Fraction::operator/(const int a) {
     return b;
 }
 
+bool Fraction::operator<(const Fraction& b){
+    if(top/bot<b.getValue()) return 1;
+    else return 0;
+}
+
+bool Fraction::operator>(const Fraction& b){
+    if(top/bot>b.getValue()) return 1;
+    else return 0;
+}
