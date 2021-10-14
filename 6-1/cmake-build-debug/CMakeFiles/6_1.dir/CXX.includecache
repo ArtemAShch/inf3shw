@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/C++/Bibok/6-1/Fraction.cpp
+Fraction.h
+D:/C++/Bibok/6-1/Fraction.h
+map
+-
+cmath
+-
+
+D:/C++/Bibok/6-1/Fraction.h
+iostream
+-
+map
+-
+cmath
+-
+
+D:/C++/Bibok/6-1/main.cpp
+iostream
+-
+Fraction.h
+D:/C++/Bibok/6-1/Fraction.h
+

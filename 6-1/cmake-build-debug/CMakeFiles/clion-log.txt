@@ -1,0 +1,4 @@
+"D:\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" D:\C++\Bibok\6-1
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/C++/Bibok/6-1/cmake-build-debug
