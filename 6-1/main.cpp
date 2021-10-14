@@ -17,6 +17,8 @@ int main()
     std::cout<<newFraction*newasd;
     std::cout<<newFraction+newasd;
     std::cout<<newFraction/newasd;
+    std::cout<< (newFraction>newasd)<<" ";
+    std::cout<< (newFraction<newasd)<<"\n";
     std::cout << newFraction.getTop()<<" "<< newFraction.getBot() << ' ' <<  newFraction.getValue()<< '\n';
 
     return 0;
