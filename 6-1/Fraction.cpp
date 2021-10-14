@@ -42,12 +42,6 @@ Fraction::Fraction(int top_v, int bot_v)
     return;
 }*/
 
-double Fraction::getValue(){
-    double a = top;
-    double b = bot;
-    double c = a/b;
-    return c;
-}
 
 void Fraction::setTop(int tmp) {
     int c = Nok(tmp, bot);
