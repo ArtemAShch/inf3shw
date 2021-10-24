@@ -47,7 +47,7 @@ public:
     Fraction& operator/=(const int a);
     bool operator<(const Fraction& b);
     bool operator>(const Fraction& b);
-
+    operator double() const { return double(top)/double(bot);}
 
     friend std::ostream& operator<<(std::ostream&, const Fraction&);
     friend std::istream& operator>>(std::istream&, Fraction&);

@@ -4,6 +4,7 @@
 int main()
 {
     int asd;
+    double m;
     Fraction newFraction;
     Fraction newasd;
     std::cin >> newFraction;
@@ -13,6 +14,8 @@ int main()
     std::cin >> asd;
     newFraction.setTop(asd);
     std::cout << newFraction;
+    m=newFraction;
+    std::cout<<m<<std::endl;
     std::cout<<newFraction-newasd;
     std::cout<<newFraction*newasd;
     std::cout<<newFraction+newasd;
