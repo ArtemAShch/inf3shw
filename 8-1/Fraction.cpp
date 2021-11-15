@@ -23,6 +23,9 @@ short sig(int a, int b){
 
 Fraction::Fraction(int top_v, int bot_v)
 {
+    if(bot_v==0){
+        throw DivisionByZeroFracException();
+    }
     int c = Nok(top_v, bot_v);
     top = (sig(top_v, bot_v)*abs(top_v/c));
     bot = (abs(bot_v/c));
